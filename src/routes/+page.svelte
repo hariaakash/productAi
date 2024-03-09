@@ -1,2 +1,11 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<div class="min-h-screen flex items-center justify-center bg-black">
+    <div class="text-white text-center">
+        <h1 class="text-3xl uppercase mb-8 bg-gradient-to-r from-white to-sky-500 inline-block text-transparent bg-clip-text">Welcome</h1>
+        <h3 class="mb-6">Integrate our API to find the best results <br> for your product with exclusive content generation</h3>
+        <a href="/home">
+            <button class="bg-transparent rounded-full bg-gradient-to-r from-white to-sky-500 inline-block text-transparent bg-clip-text font-semibold py-2 px-4 border hover:border-sky-500">
+                Continue
+            </button>
+        </a>
+    </div>
+</div>
